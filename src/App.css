@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  background: #1e1e1e;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 882px) {
+  .App {
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+}
